@@ -1,0 +1,29 @@
+	html {
+		background-color:#262626;
+		
+		}
+	h1 { 
+		font-size:50px;
+		color:#bbbee0;
+		}
+
+	p {
+		font-size: 20px;
+		color: white;
+		}
+
+	input[type=text] {
+ 		 background-color: #bbbee0;
+  		border-radius: 8px;
+  		color: #262626;
+  		cursor: pointer;
+  		font-family: Inter;
+  		font-size: 16px;
+  		padding: 13px 20px;
+
+   		 }
+
+	button { 
+		background-color: #bbbee0;
+
+  		}

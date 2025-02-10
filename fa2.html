@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <script src="fa2.js"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+<h1>calcU</h1>
+<p>
+     This page allows you to check the sum, difference, product, quotient, and remainder of two numbers.  <br>
+</p>
+<p>
+    How to use: <br>
+     Enter 2 numbers and just choose any operation.</p>
+
+<input type="text" id="num1" value="num 1">
+<input type="text" id="num2" value="num 2">
+<br> <br>
+
+<button onclick="(add(parseInt(num1.value), parseInt(num2.value)))">+</button>
+<button onclick="(subtract(parseInt(num1.value), parseInt(num2.value)))">-</button>
+<button onclick="(multiply(parseInt(num1.value), parseInt(num2.value)))">*</button>
+<button onclick="(divide(parseInt(num1.value), parseInt(num2.value)))">/</button>
+<button onclick="(remainder(parseInt(num1.value), parseInt(num2.value)))">%</button>
+
+
+<p id="res">Results will be displayed here.</p>
+
+
+</body>
+</html>
